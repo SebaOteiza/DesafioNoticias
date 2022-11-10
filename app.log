@@ -1,0 +1,17 @@
+2022-11-10 20:04:13.081  INFO 15128 --- [restartedMain] c.i.fsj.DesafioNoticiasApplication       : Starting DesafioNoticiasApplication using Java 17.0.4.1 on DESKTOP-K75H5K0 with PID 15128 (C:\Users\Paula\Desktop\Curso FSJ Trainee\Modulo 5 - DESARROLLO DE APLICACIONES JEE CON SPRING FRAMEWORK\1. Spring\desafio 2\DesafioNoticias\target\classes started by Paula in C:\Users\Paula\Desktop\Curso FSJ Trainee\Modulo 5 - DESARROLLO DE APLICACIONES JEE CON SPRING FRAMEWORK\1. Spring\desafio 2\DesafioNoticias)
+2022-11-10 20:04:13.082  INFO 15128 --- [restartedMain] c.i.fsj.DesafioNoticiasApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-11-10 20:04:13.519  INFO 15128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-10 20:04:13.526  INFO 15128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-10 20:04:13.530  INFO 15128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-10 20:04:13.638  INFO 15128 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-10 20:04:13.663  INFO 15128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 578 ms
+2022-11-10 20:04:13.767 DEBUG 15128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-10 20:04:13.799 DEBUG 15128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-11-10 20:04:13.815 DEBUG 15128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-10 20:04:13.864 DEBUG 15128 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-10 20:04:13.919  INFO 15128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-10 20:04:13.932  INFO 15128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-10 20:04:13.937  INFO 15128 --- [restartedMain] c.i.fsj.DesafioNoticiasApplication       : Started DesafioNoticiasApplication in 1.028 seconds (JVM running for 290.953)
+2022-11-10 20:04:13.941  INFO 15128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-10 20:04:23.559  INFO 15128 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-10 20:04:23.618  INFO 15128 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
