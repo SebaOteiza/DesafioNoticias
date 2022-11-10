@@ -1,5 +1,10 @@
 package cl.infoclub.fsj.entidad;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Noticia {
 
 	private String titulo, noticia, imagen;

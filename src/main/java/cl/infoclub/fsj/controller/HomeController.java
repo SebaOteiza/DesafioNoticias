@@ -31,17 +31,17 @@ public class HomeController {
 			while (data != null) {
 
 				String[] datos = data.split("@@");
-				Noticia nt = new Noticia();
+				Noticia n = new Noticia();
 				
-				nt.setTitulo(datos[0]);
-				nt.setNoticia(datos[1]);
-				nt.setImagen(datos[2]);
+				n.setTitulo(datos[0]);
+				n.setNoticia(datos[1]);
+				n.setImagen(datos[2]);
 				
-				logger.info("Titulo: "+nt.getTitulo());
-				logger.info("Noticia: "+nt.getNoticia());
-				logger.info("Imagen: "+nt.getImagen());
+				logger.info("Titulo: "+n.getTitulo());
+				logger.info("Noticia: "+n.getNoticia());
+				logger.info("Imagen: "+n.getImagen());
 				
-				listaNombres.add(nt);
+				listaNombres.add(n);
 				data = br.readLine();
 			}
 			
