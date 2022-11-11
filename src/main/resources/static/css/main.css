@@ -1,0 +1,18 @@
+.contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.noticia{
+	width: 300px;
+	padding: 0.5em;
+	color:darkblue;
+	border: 1px solid black;
+	margin: 0.5em;
+}
+
+.noticia img{
+	width: 100%;
+}
